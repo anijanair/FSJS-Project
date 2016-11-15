@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>Daily Life - Todo List</title>
+    <link href='https://fonts.googleapis.com/css?family=Varela+Round' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="css/normalize.min.css">
+    <link rel="stylesheet" href="js/animsition/animsition.min.css">
+    <link rel="stylesheet" href="js/slick/slick.css">
+    <link rel="stylesheet" href="js/slick/slick-theme.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="styles/main.css" type="text/css">
+  </head>
+  <body>
+    <div class="row container animsition">
+      <header class="row header">
+        <div>
+          <h1>My Daily Life</h1>
+        </div>
+        <div class="grid-third">
+          <a href="index.html" class="logo"></a>
+        </div>
+        <div class="grid-third">
+          <h1 class="description">Have a Great Day!</h1>
+        </div>
+        <div class="grid-third">
+          <nav>
+            <a href="#" class="active">Home</a>
+            <a href="kids.html">Kids</a>
+            <a href="garden.html">Garden</a>
+          </nav>
+        </div>
+      </header>
+    </div>
+    <div>
+
+        <div ng-app="todoListApp">
+        <ng-include src="'templates/navbar.html'"></ng-include>
+        <div>
+          <h3>My TODOs!</h3>
+        </div>
+          <div class="list" ng-controller="mainCtrl">
+            <div class="add">
+            <a href="#" ng-click="addTodo()">
+              + Add a New Task</a>
+            </div>
+            <todo></todo>
+        </div>
+        <script src="js/jquery-3.1.1.min.js"></script>
+        <script src="js/animsition/animsition.min.js"></script>
+        <script src="js/jquery.sticky.js"></script>
+        <script src="js/slick/slick.min.js"></script>
+        <script src="js/main.js"></script>
+      <script src="scripts/todo.bundle.js"></script>
+      <script src="scripts/vendor.bundle.js"></script>
+      </div>
+    </div>
+  </body>
+</html>
