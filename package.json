@@ -1,0 +1,27 @@
+{
+  "name": "fsjs-project",
+  "version": "1.0.0",
+  "description": "My Code Louisville FSJS Project. A web app designed to let users create their own To-Do lists, add items to the lists, and mark them as complete.",
+  "main": "webpack.config.js",
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "express": "^4.14.0",
+    "mongoose": "^4.6.7",
+    "angular": "^1.5.8",
+    "webpack": "^1.13.3"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/anijanair/FSJS-Project.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/anijanair/FSJS-Project/issues"
+  },
+  "homepage": "https://github.com/anijanair/FSJS-Project#readme"
+}

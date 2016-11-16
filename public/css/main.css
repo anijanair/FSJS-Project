@@ -1,9 +1,4 @@
-/*
-  AGENCY - A Treehouse template
-  by: http://teamtreehouse.com
-  v.1.0.1
-  License: MIT http://opensource.org/licenses/MIT
-*/
+/
 
 /*Main*/
 * {
@@ -11,7 +6,7 @@
 }
 
 body{
-  color: #B1B9C1;
+  color: #33FFCC;
   font-size: 1em;
   font-weight: 200;
   font-family: 'Roboto', Helvetica, Arial, serif;
@@ -78,13 +73,14 @@ h5 {
 
 /*Logo*/
 .logo {
-  width: 80px;
-  height: 24px;
+  width: 86px;
+  height: 86px;
   display: block;
   float: left;
-  margin: 20px 0;
+  border-radius: 50%;
+  margin: 50px 0;
   background: url('../img/logo.png') left center no-repeat;
-  background-size: 80px 16px;
+  background-size: 90px 90px;
 }
 .description {
   line-height: 60px;

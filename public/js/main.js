@@ -12,10 +12,10 @@ $(".header").sticky({
 });
 
 $(".header").on("sticky-start", function(){
-$(".description").html("We build <strong>GREAT</strong> Apps");
+$(".description").html("Have a <strong>GREAT</strong> Day!");
 });
 $(".header").on("sticky-end", function(){
-$(".description").html("We build Apps");
+$(".description").html("Have a Great Day!");
 });
 $(".work").sticky({
   topSpacing: 60,
